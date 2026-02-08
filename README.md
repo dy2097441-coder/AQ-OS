@@ -1,6 +1,4 @@
-AQ OS v1.2 🚀A custom, 16-bit bootable Operating System built in x86 Assembly. AQ OS was created strictly for fun and as a learning journey into low-level systems programming.✨ FeaturesCustom Welcome Text: A retro-style greeting on boot.Command Line Interface: A functional shell with several built-in commands.Time Display: Pulls real-time data from the BIOS system clock.Memory Storage: A save and read system that stores text directly in RAM.Safety Commands: Includes help, cls (clear screen), and shutdown.Readme Command: A special command inside the OS explaining its purpose.🛠 System RequirementsFor Development (Building the ISO):Operating System: Linux or Windows Subsystem for Linux (WSL).Assembler: NASM (Netwide Assembler).ISO Tools: xorriso or genisoimage.Compiler Tools: dd (standard on Linux/WSL).For Running the OS:Emulator: QEMU (Recommended), VirtualBox, or VMware.Hardware: Any x86-compatible machine (via USB/CD boot).🚀 How to Build and Run1. Install Dependencies (WSL/Ubuntu)Bashsudo apt update
-sudo apt install nasm xorriso qemu-system-x86 -y
-2. Compile the SourceBashnasm -f bin aq_os.asm -o aq_os.bin
-3. Create the Bootable ISOBash# Create a folder for the ISO structure
-mkdir -p iso_root
+For Running the OS:
+Emulator: QEMU (Recommended), VirtualBox, or VMware.
 
+Hardware: Any x86-compatible machine (via USB/CD boot).
